@@ -1,0 +1,238 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<title>Dalaguete Water District</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+<body>
+	<div class="webhead">
+		<img src="img/dwdbanner2.png" style="height: 85%;margin-left: 40%;">
+	</div>
+	<nav class="container navbar bg-primary navbar-expand-sm sticky-top">
+		<div class="container container-fluid">
+			<div class="navbar-left navbar-header" style="width: 50%;">
+				<img src="img/logoround.png" style="width: 11%;">
+		      	<a class="navbar-brand text-white" href="#">Dalaguete Water District</a>
+		    </div>
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li class="nav-item">
+		      		<a href="home.html"><button class="btn btn-active text-white">Home</button></a>
+		        </li>
+		      	<li class="nav-item">
+		      		<a href="announcements.html"><button class="btn text-white">Announcements</button></a>
+		        </li>
+		      	<li class="nav-item">
+		      		<a href="about.html"><button class="btn text-white">About Us</button></a>
+		      	</li>
+		      	<li class="nav-item">
+		      		<a href="contact.html"><button class="btn text-white">Contact Us</button></a>
+		      	</li>
+		      </ul>
+		</div>
+	</nav>
+
+	<div class="container" id="homebodycontainer">
+		<div id="demo" class="carousel slide float-left" data-ride="carousel" style="width: 65%;">
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		    <li data-target="#demo" data-slide-to="3"></li>
+		    <li data-target="#demo" data-slide-to="4"></li>
+		  </ul>
+		  <div class="carousel-inner">
+			    <div class="carousel-item active text-center">
+			      <img src="img/Osmena_peak.jpg" alt="Los Angeles" width="1100" height="500">
+			      <div class="carousel-caption">
+			      	<caption>DALAGUETE</caption>
+			      </div>   
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/pipe.jpg" alt="Chicago" width="1100" height="500">
+			      <div class="carousel-caption">
+			        <h3>Chicago</h3>
+			        <p>Thank you, Chicago!</p>
+			      </div>   
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/spring.jpg" alt="New York" width="1100" height="500">
+			      <div class="carousel-caption">
+			        <h3>New York</h3>
+			        <p>We love the Big Apple!</p>
+			      </div>   
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/valves.jpg" alt="New York" width="1100" height="500">
+			      <div class="carousel-caption">
+			        <h3>New York</h3>
+			        <p>We love the Big Apple!</p>
+			      </div>   
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/watermeters.jpg" alt="New York" width="1100" height="500">
+			      <div class="carousel-caption">
+			        <h3>New York</h3>
+			        <p>We love the Big Apple!</p>
+			      </div>   
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#demo" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+			</div>
+
+			<div class="float-right borderless" style="width: 31%;">
+					<ul class="list-group list-group-vertical" id="naulist">
+						<h5>News and Announcements</h5>
+						<li class="list-group-item btn">
+							<img src="img/spring.jpg" style="width: 35%;" class="float-left">
+							<h6>Announcement 1</h6>
+							<p>All Announcement are encoded.</p>
+						</li>
+						<li class="list-group-item btn">
+							<img src="img/spring.jpg" style="width: 35%;" class="float-left">
+							<h6>Announcement 2</h6>
+							<p>All Announcement are encoded.</p>
+						</li>
+						<li class="list-group-item btn">
+							<img src="img/spring.jpg" style="width: 35%;" class="float-left">
+							<h6>Announcement 3</h6>
+							<p>All Announcement are encoded.</p>
+						</li>
+						<li class="list-group-item btn">
+							<p class="float-right">Read More</p>
+						</li>
+					</ul>
+				</div>
+
+			<!-- <hr class="dashed"> -->
+			<ul class="list-group list-group-horizontal" id="listdako">
+				<li class="list-group-item float-left borderless" id="homelisto" style="width: 35%;">
+					<ul class="list-group list-group-vertical" id="homelist" style="width: 100%;">
+						<li class="list-group-item nopadding">
+							<button class="btn">
+								<img src="img/transparency_seal-01.png" style="width: 19%;">
+								<p class="phover">Transparency Seal</p>
+							</button>
+						</li>
+						<li class="list-group-item nopadding">
+							<button class="btn" data-toggle="modal" data-target="#billcalc">
+								<img src="img/calc.png" style="width: 19%;">
+								<p>Bill Calculator</p>
+							</button>
+						</li>
+						<li class="list-group-item nopadding">
+							<button class="btn">
+								<img src="img/jobop.png" style="width: 19%;">
+								<p>Careers</p>
+							</button>
+						</li>
+						<li class="list-group-item padding-sm">
+							<button class="btn">
+								<img src="img/askus2.png" style="width: 19%;">
+								<p>Ask us</p>
+							</button>
+						</li>
+					</ul>
+				</li>
+
+				
+
+				<li class="list-group-item float-left borderless">
+					<ul class="list-group list-group-vertical" id="fbfeedid" style="width: 100%;">
+						<h5>Facebook:</h5>
+						<li class="list-group-item btn">
+							<img src="img/spring.jpg" style="width: 35%;" class="float-left">
+							<h6>Facebook feed</h6>
+							<p>Facebook feed plug-in here.</p>
+						</li>
+						
+					</ul>
+				</li>
+
+				<li class="list-group-item float-left borderless">
+					<ul class="list-group list-group-vertical ">
+						<h5>To check your balance</h5>
+						<li class="list-group-item borderless">
+							<p style="font-size: 15px;">Text DWDBAL(SPACE)(ACCOUNT NUMBER)</p>
+						</li>
+						<h5>To request account number</h5>
+						<li class="list-group-item borderless">
+							<p style="font-size: 15px;">Text DWDACCNUM(SPACE)(FULLNAME)</p>
+							<h5>Send to </h5>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+			
+	</div>
+			<div class="modal" id="billcalc">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+
+			      <!-- Modal Header -->
+			      <div class="modal-header">
+			        <h4 class="modal-title">Dalaguete Water District Bill Calculator</h4>
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			      </div>
+
+			      <!-- Modal body -->
+			      <div class="modal-body">
+			        Water Calculator
+			      </div>
+
+			      <!-- Modal footer -->
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			      </div>
+
+			    </div>
+			  </div>
+			</div>
+
+
+
+
+			
+</body>
+
+		
+
+
+<footer style="background-color: gray;position: static;padding: 3%;" class="container">
+	<ul class="list-group list-group-horizontal" style="background-color: transparent;">
+			<li class="list-group-item" style="background-color: transparent;border: none;width: 100%;">
+				<img src="img/logoround.png" style="width: 30%;display: inline;">
+				<h3 style="color: white;">Dalaguete Water District</h3>
+				<p style="color: white;">Poblacion, Dalaguete, Cebu</p>			
+			</li>
+			<li class="list-group-item" id="aboutusfooter">
+				<h3 style="color: white;">About Us</h3>
+				<div class="btn-group btn-group-vertical">
+					<a href="about.html"><button class="btn text-left" type="button">About DWD</button></a>
+					<a href="about.html/#history"><button class="btn text-left" type="button">History</button></a>
+					<button class="btn text-left" type="button">Facilities</button>
+					<a href="about.html#vmg"><button class="btn text-left" type="button">Vision, Mission, Goals</button></a>
+				</div>
+			</li>
+			<li class="list-group-item" id="aboutusfooter">
+				<h3 style="color: white;">Contact Us</h3>
+				<p>Telefax: (032) 484-8724</p>
+				<p>Email: dalaguetewd@yahoo.com.ph</p>
+				<p>Phone: +639123456789</p>
+				<p>Location: Poblacion, Dalaguete, Cebu; Osorio Bldg.</p>
+			</li>
+	</ul>
+	<p style="color: white;" class="text-center">Dalaguete Water District © 2020. All Rights Reserved</p>
+</footer>
+</html>
+
+<script> window.fbMessengerPlugins = window.fbMessengerPlugins || { init : function() { FB.init({ appId: "1678638095724206", xfbml: true, version: "v7.0" }); }, callable : [] }; window.fbAsyncInit = window.fbAsyncInit || function() { window.fbMessengerPlugins.callable.forEach( function( item ) { item(); } ); window.fbMessengerPlugins.init(); }; setTimeout( function() { (function(d, s, id){ var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk')); }, 0); </script> 
